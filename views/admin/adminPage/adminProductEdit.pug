@@ -34,8 +34,7 @@ block content
           .form-group
             label(for="image") Image
             br 
-            img( src = product.img , width = "200", height="200" name='image' value= product.img ? product.img : '')
+            img( src = product.img , width = "150", height="150" name='image' value= product.img ? product.img : '')
             input#image.form-control-file(type="file" name="image" )
           button(class="btn btn-primary ml-4") Update
-  // Footer ==========================================================
   include ../layout/footer.pug
